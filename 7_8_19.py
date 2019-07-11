@@ -1,6 +1,5 @@
 # takes positive integer num and its length returns reverse of that number
 
-
 # we pop the number and add it to final and left shift final 
 # O(n)
 def reverse_num(num, num_digits):

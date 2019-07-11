@@ -35,12 +35,6 @@ def factorial_mem(a):
         mem[a] = a * factorial_mem(a-1)
         return mem[a]
 
-''' 
-Overlapping Subproblems property and Optimal Substructure property in DP
-
-'''
-
-
 
 
 def test():
