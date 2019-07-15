@@ -34,13 +34,15 @@ Given weights and values of n items, put these items in a knapsack of
 capacity W to get maximum total value in knapsack
 '''
 
-# Returns the maximum value that can be put in a knapsack of 
-# capacity W 
+# W is the capacity, wt is a list of all the weights, val is the value that
+# we're trynna maximize, n is the length of wt, which r all the weights
+
 def knapSack(W , wt , val , n): 
     # Base Case 
     if n == 0 or W == 0 : 
         return 0
   
+    print (wt[n-1])
     # If weight of the nth item is more than Knapsack of capacity 
     # W, then this item cannot be included in the optimal solution 
     if (wt[n-1] > W): 
@@ -54,8 +56,8 @@ def knapSack(W , wt , val , n):
                    knapSack(W , wt , val , n-1)) 
 
 # To test above function 
-val = [60, 100, 120] 
-wt = [10, 20, 30] 
+val = [80, 60, 100, 120] 
+wt = [5, 10, 20, 30] 
 W = 50
 n = len(val) 
 
