@@ -3,6 +3,10 @@ This one will focus on doing some practice problems for coding interviews
 asking for data structures in python
 '''
 
+''' Types of datastructures that we will deal with here
+Arrays(lists), Linked list, Dictionary, trees, graphs, stack/queu, tries, hashmap
+'''
+
 #linked list
 
 #for the single node
